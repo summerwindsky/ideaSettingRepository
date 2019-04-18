@@ -1,0 +1,8 @@
+<keymap version="1" name="Default copy 1" parent="$default">
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="ctrl alt back_space" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+</keymap>

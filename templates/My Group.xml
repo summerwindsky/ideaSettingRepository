@@ -1,0 +1,49 @@
+<templateSet group="My Group">
+  <template name="ca" value="/**&#10; * Title: &#10; * Description: &#10; * Company: 北京华宇元典信息服务有限公司&#10; *&#10; * @author zhangjing&#10; * @version 1.0&#10; * @date $DATE$ $TIME$&#10; *&#10; */" description="class annotation" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="log" value="private static final Logger logger = LoggerFactory.getLogger(" description="slf4j log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="pvt" value="@Test&#10;public void test" description="public void test" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="psfs" value="private static final String " description="private static final String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="pvb" value="@Before    &#10;public void before() {     &#10;         &#10;}" description="public void before" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="pva" value="@After    &#10;public void after() {     &#10;         &#10;} " description="public void after" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mapl" value="Map&lt;String,String&gt; map = new HashMap&lt;&gt;();" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="listl" value="List&lt;String&gt; list = new ArrayList&lt;&gt;();" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="psvmsp" value="    public static void main(String[] args) {&#10;        ApplicationContext applicationContext = new ClassPathXmlApplicationContext(&#10;                &quot;classpath:spring/applicationContxt.xml&quot;, &quot;classpath:spring/spring-datasource.xml&quot;,&#10;                 &quot;classpath:spring/spring-servlet.xml&quot;);&#10;&#10;        IFlysDao flysDao = (IFlysDao) applicationContext.getBean(&quot;flysDao&quot;);&#10;        .forEach(System.out::println);&#10;    }" description="spring bean test main" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

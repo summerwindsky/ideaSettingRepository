@@ -1,0 +1,40 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="ChangesView.ShelveSilently" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="Console.TableResult.ColumnSortReset" />
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f11" />
+  </action>
+  <action id="EditorCutLineBackward">
+    <keyboard-shortcut first-keystroke="shift ctrl alt back_space" />
+  </action>
+  <action id="EditorCutLineEnd">
+    <keyboard-shortcut first-keystroke="shift ctrl alt end" />
+  </action>
+  <action id="FindBugs.ClassUnderCursorAction" />
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="HippieCompletion" />
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="ctrl alt back_space" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift ctrl alt o" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="ViewNavigationBar">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="ViewToolButtons">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+</keymap>
