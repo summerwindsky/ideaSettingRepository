@@ -1,9 +1,9 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="true" />
+    <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
-      <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" timestamp="1557135667336">
+      <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" timestamp="1557137846625">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="108" column="0" />
         <mark key="]" line="108" column="0" />
@@ -14,6 +14,8 @@
         <mark key="]" line="73" column="0" />
         <mark key="." line="73" column="0" />
       </file>
+      <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/sync/aj/BaseMapper.java" timestamp="1557138071860" />
+      <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/sync/aj/DataImportAdapter.java" timestamp="1557138050166" />
     </filemarks>
     <jumps>
       <jump line="100" column="18" filename="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" />
@@ -55,10 +57,18 @@
       <last-dir>0</last-dir>
       <show-last>false</show-last>
     </search>
-    <history />
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed E</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed B</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
