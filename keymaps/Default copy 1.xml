@@ -1,8 +1,13 @@
 <keymap version="1" name="Default copy 1" parent="$default">
+  <action id="Images.Editor.ToggleGrid" />
   <action id="JumpToNextChange">
     <keyboard-shortcut first-keystroke="ctrl alt back_space" />
   </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="VimPluginToggle">
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+    <keyboard-shortcut first-keystroke="ctrl quote" />
   </action>
 </keymap>
