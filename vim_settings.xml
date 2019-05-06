@@ -1,17 +1,56 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="false" />
+    <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" timestamp="1557134380827">
-        <mark key="[" line="94" column="72" />
-        <mark key="]" line="94" column="71" />
-        <mark key="^" line="94" column="71" />
-        <mark key="." line="94" column="71" />
+      <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" timestamp="1557135667336">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="108" column="0" />
+        <mark key="]" line="108" column="0" />
+        <mark key="." line="108" column="0" />
+      </file>
+      <file name="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" timestamp="1557136156495">
+        <mark key="[" line="73" column="0" />
+        <mark key="]" line="73" column="0" />
+        <mark key="." line="73" column="0" />
       </file>
     </filemarks>
-    <jumps />
-    <registers />
+    <jumps>
+      <jump line="100" column="18" filename="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" />
+      <jump line="0" column="0" filename="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" />
+    </jumps>
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBsbwogICAgICAgIGlmIChmcm9tID4gMCkgewo=</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBsbwogICAgICAgIGlmIChmcm9tID4gMCkgewo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oInRvID0gIiArIHRvKTsK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBsbwo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIlRyaWFsSW5jcmVtZW50Sm9iLnRhc2sxIik7Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oInRvID0gIiArIHRvKTsK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIiIpOwo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiIik7ZGQK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgZGQK</text>
+      </register>
+      <register name="-" type="4">
+        <text />
+      </register>
+    </registers>
     <search>
       <last-dir>0</last-dir>
       <show-last>false</show-last>
