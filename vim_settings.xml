@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="false" />
+    <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
       <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" timestamp="1557137846625">
@@ -9,10 +9,12 @@
         <mark key="]" line="108" column="0" />
         <mark key="." line="108" column="0" />
       </file>
-      <file name="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" timestamp="1557136156495">
-        <mark key="[" line="73" column="0" />
-        <mark key="]" line="73" column="0" />
-        <mark key="." line="73" column="0" />
+      <file name="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" timestamp="1557195883869">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="118" column="5" />
+        <mark key="]" line="118" column="5" />
+        <mark key="." line="118" column="5" />
+        <mark key="^" line="118" column="5" />
       </file>
       <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/sync/aj/BaseMapper.java" timestamp="1557138071860" />
       <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/sync/aj/DataImportAdapter.java" timestamp="1557138050166" />
@@ -20,13 +22,15 @@
     <jumps>
       <jump line="100" column="18" filename="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" />
       <jump line="0" column="0" filename="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" />
+      <jump line="73" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="0" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
     </jumps>
     <registers>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBsbwogICAgICAgIGlmIChmcm9tID4gMCkgewo=</text>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBsbwogICAgICAgIGlmIChmcm9tID4gMCkgewo=</text>
+      <register name="&quot;" type="4">
+        <text>w</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oInRvID0gIiArIHRvKTsK</text>
@@ -50,7 +54,7 @@
         <text encoding="base64">ICAgICAgICAgICAgZGQK</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>w</text>
       </register>
     </registers>
     <search>
