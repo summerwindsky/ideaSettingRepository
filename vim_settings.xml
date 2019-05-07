@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="false" />
+    <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
       <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" timestamp="1557137846625">
@@ -17,6 +17,14 @@
         <mark key="^" line="118" column="5" />
       </file>
       <file name="D:/workspace/work/lawyerdata/src/main/resources/config/es.properties" timestamp="1557206997545" />
+      <file name="/Dummy.txt" timestamp="1557210900246">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="D:/workspace/work/lawyerdata/src/main/java/com/thunisoft/lawerdata/entry/MainController.java" timestamp="1557210849053">
+        <mark key="[" line="78" column="50" />
+        <mark key="]" line="78" column="50" />
+        <mark key="." line="78" column="50" />
+      </file>
       <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/sync/aj/BaseMapper.java" timestamp="1557138071860" />
       <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/sync/aj/DataImportAdapter.java" timestamp="1557138050166" />
     </filemarks>
@@ -31,7 +39,7 @@
         <text encoding="base64">ICAgICAgICBsbwogICAgICAgIGlmIChmcm9tID4gMCkgewo=</text>
       </register>
       <register name="&quot;" type="4">
-        <text>w</text>
+        <text encoding="base64">Y2VzIA==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oInRvID0gIiArIHRvKTsK</text>
@@ -55,7 +63,7 @@
         <text encoding="base64">ICAgICAgICAgICAgZGQK</text>
       </register>
       <register name="-" type="4">
-        <text>w</text>
+        <text encoding="base64">Y2VzIA==</text>
       </register>
     </registers>
     <search>
@@ -74,6 +82,15 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed H</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed R</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
