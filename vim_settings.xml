@@ -9,11 +9,11 @@
         <mark key="]" line="108" column="0" />
         <mark key="." line="108" column="0" />
       </file>
-      <file name="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" timestamp="1557215778283">
-        <mark key="'" line="120" column="0" />
-        <mark key="[" line="72" column="0" />
-        <mark key="]" line="72" column="3" />
-        <mark key="." line="72" column="3" />
+      <file name="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" timestamp="1557224732582">
+        <mark key="'" line="95" column="0" />
+        <mark key="[" line="82" column="0" />
+        <mark key="]" line="82" column="16" />
+        <mark key="." line="82" column="16" />
         <mark key="^" line="72" column="3" />
       </file>
       <file name="D:/workspace/work/lawyerdata/src/main/resources/config/es.properties" timestamp="1557206997545" />
@@ -34,15 +34,16 @@
       <jump line="73" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
       <jump line="117" column="8" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
       <jump line="116" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
-      <jump line="113" column="8" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
       <jump line="112" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
-      <jump line="111" column="12" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
       <jump line="110" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
-      <jump line="95" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
       <jump line="94" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
       <jump line="64" column="43" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
       <jump line="0" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
       <jump line="119" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="80" column="12" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="113" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="111" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="95" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
     </jumps>
     <registers>
       <register name="1" type="2">
