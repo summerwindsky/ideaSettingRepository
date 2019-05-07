@@ -9,12 +9,12 @@
         <mark key="]" line="108" column="0" />
         <mark key="." line="108" column="0" />
       </file>
-      <file name="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" timestamp="1557195883869">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="118" column="5" />
-        <mark key="]" line="118" column="5" />
-        <mark key="." line="118" column="5" />
-        <mark key="^" line="118" column="5" />
+      <file name="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" timestamp="1557212582363">
+        <mark key="'" line="119" column="0" />
+        <mark key="[" line="75" column="0" />
+        <mark key="]" line="75" column="0" />
+        <mark key="^" line="108" column="43" />
+        <mark key="." line="75" column="0" />
       </file>
       <file name="D:/workspace/work/lawyerdata/src/main/resources/config/es.properties" timestamp="1557206997545" />
       <file name="/Dummy.txt" timestamp="1557210900246">
@@ -32,38 +32,51 @@
       <jump line="100" column="18" filename="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" />
       <jump line="0" column="0" filename="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" />
       <jump line="73" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="117" column="8" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="116" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="113" column="8" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="112" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="111" column="12" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="110" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="95" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="94" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="64" column="43" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
       <jump line="0" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
+      <jump line="119" column="0" filename="D:/workspace/work/bridge/src/main/java/com/thunisoft/hyyd/bridge/services/controler/component/bridge/TrialIncrementJob.java" />
     </jumps>
     <registers>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBsbwogICAgICAgIGlmIChmcm9tID4gMCkgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oIs2lyfPK08a11PbBv8jOzvGjrL3hyvjKsbzktMF0aW1lc3RhbXCjunt9IiwgdG8pOwogICAgICAgICAgICAvLyAzLrvxyKHNpcnzytPGtbzHwrwKICAgICAgICAgICAgaWYgKHRvID4gMCkgewo=</text>
       </register>
-      <register name="&quot;" type="4">
-        <text encoding="base64">Y2VzIA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oIs2lyfPK08a11PbBv8jOzvGjrL3hyvjKsbzktMF0aW1lc3RhbXCjunt9IiwgdG8pOwogICAgICAgICAgICAvLyAzLrvxyKHNpcnzytPGtbzHwrwKICAgICAgICAgICAgaWYgKHRvID4gMCkgewo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oInRvID0gIiArIHRvKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdG8gPSBMb25nLnZhbHVlT2YoVGltZVV0aWwuc2F2ZUN1cnJUaW1lc3RhbXAoKSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBsbwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbygizaXJ88rTxrXU9sG/zqq/1aOhIilTCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIlRyaWFsSW5jcmVtZW50Sm9iLnRhc2sxIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICBsbwogICAgICAgIGlmIChmcm9tID4gMCkgewo=</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oInRvID0gIiArIHRvKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIiIpOwo=</text>
+        <text encoding="base64">ICAgICAgICBsbwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiIik7ZGQK</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIlRyaWFsSW5jcmVtZW50Sm9iLnRhc2sxIik7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGQK</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oInRvID0gIiArIHRvKTsK</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIiIpOwo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Y2VzIA==</text>
+        <text>;</text>
       </register>
     </registers>
     <search>
@@ -72,7 +85,9 @@
     </search>
     <history>
       <history-search />
-      <history-cmd />
+      <history-cmd>
+        <entry>NO</entry>
+      </history-cmd>
       <history-expr />
       <history-input />
     </history>
@@ -91,6 +106,12 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed OPEN_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed CLOSE_BRACKET</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
