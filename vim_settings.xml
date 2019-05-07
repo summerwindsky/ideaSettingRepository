@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="true" />
+    <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
       <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" timestamp="1557137846625">
@@ -16,6 +16,7 @@
         <mark key="." line="118" column="5" />
         <mark key="^" line="118" column="5" />
       </file>
+      <file name="D:/workspace/work/lawyerdata/src/main/resources/config/es.properties" timestamp="1557206997545" />
       <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/sync/aj/BaseMapper.java" timestamp="1557138071860" />
       <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/sync/aj/DataImportAdapter.java" timestamp="1557138050166" />
     </filemarks>
