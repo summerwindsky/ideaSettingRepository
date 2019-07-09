@@ -16,8 +16,7 @@
         <mark key="." line="82" column="16" />
         <mark key="^" line="72" column="3" />
       </file>
-      <file name="D:/workspace/work/lawyerdata/src/main/resources/config/es.properties" timestamp="1557206997545" />
-      <file name="/Dummy.txt" timestamp="1557210900246">
+      <file name="/Dummy.txt" timestamp="1562661151285">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="D:/workspace/work/lawyerdata/src/main/java/com/thunisoft/lawerdata/entry/MainController.java" timestamp="1557210849053">
@@ -25,8 +24,6 @@
         <mark key="]" line="78" column="50" />
         <mark key="." line="78" column="50" />
       </file>
-      <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/sync/aj/BaseMapper.java" timestamp="1557138071860" />
-      <file name="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/sync/aj/DataImportAdapter.java" timestamp="1557138050166" />
     </filemarks>
     <jumps>
       <jump line="100" column="18" filename="D:/workspace/work/fb15-migrate/src/main/java/com/thunisoft/Fb09MigrateApplication.java" />
