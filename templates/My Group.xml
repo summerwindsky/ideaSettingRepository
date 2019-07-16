@@ -115,4 +115,23 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="s-n-empty" value="if(StringUtils.isNotEmpty($VAR$)) {&#10;    $END$&#10;}" description="String not empty use StringUtils" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="c-n-empty" value="if(CollectionUtils.isNotEmpty($VAR$)) {&#10;    $END$&#10;}" description="Collections not Empty use CollectionsUtils" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ne" value="if($PARM$.isNotEmpty($VAR$)) {&#10;    $END$&#10;}" description="not empty" toReformat="false" toShortenFQNames="true">
+    <variable name="PARM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
