@@ -51,4 +51,13 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="unq" value="Object result = $CACHE_NAME$.get(String.valueOf($PARAMETER$),&#10;        x -&gt; getSession().createCriteria($RETURN_TYPE$.class)&#10;                .add(Restrictions.eq(&quot;$END$$PARAMETER$&quot;, $PARAMETER$)).setMaxResults(1)&#10;                .uniqueResult());&#10;return result == null ? null : ($RETURN_TYPE$) result;" description="fetch a unique model from database" toReformat="false" toShortenFQNames="true">
+    <variable name="CACHE_NAME" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
