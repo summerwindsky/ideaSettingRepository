@@ -78,12 +78,27 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="info" value="&quot;$CLASS$.$METHOD$ linenum:$LINE$, param:{$PARAM$} info:$MY$&quot;$END$" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="METHOD" expression="groovyScript(&quot;_1.collect { it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', ') &quot;, methodParameters())" defaultValue="" alwaysStopAt="true" />
-    <variable name="LINE" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="info" value="&quot;$CLASS$.$METHOD$ linenum:$LINE$, param:{$PARAM$} info:$MY$&quot;$END$" description="log info" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAM" expression="groovyScript(&quot;_1.collect { it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', ') &quot;,  methodParameters()) " defaultValue="" alwaysStopAt="false" />
     <variable name="MY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="comment" value="// comment --$USER$-- $D$ ------&gt;$ANNOTATION$" description="comment" toReformat="false" toShortenFQNames="true">
+    <variable name="USER" expression="" defaultValue="&quot;zhangjing&quot;" alwaysStopAt="false" />
+    <variable name="D" expression="" defaultValue="date(&quot;YYYY-MM-DD hh:mm:ss&quot;)" alwaysStopAt="true" />
+    <variable name="ANNOTATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="exetime" value="long start$num$ = System.currentTimeMillis();&#10;$SELECTION$&#10;logger.info(&quot;$code$:{}ms&quot;, System.currentTimeMillis() - start$num$);&#10;$END$&#10;" description="print code execute expand time" toReformat="false" toShortenFQNames="true">
+    <variable name="num" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
