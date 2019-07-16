@@ -103,4 +103,16 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="runtimeexception" value="throw new RuntimeException(&quot;$END&quot;);" description="throw new RuntimeException(&quot;&quot;);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="foreach-count-trycatch" value="AtomicLong processCount = new AtomicLong();&#10;$PARM$.stream().forEach($X$ -&gt; {&#10;    try {&#10;        long currentCount = processCount.getAndIncrement();&#10;        if (currentCount % 1000 == 0) {&#10;            logger.info(&quot;count:{}&quot;, currentCount);&#10;        }&#10;        &#10;        $END$&#10;    } catch (Exception e) {&#10;        e.printStackTrace();&#10;    }&#10;});" toReformat="false" toShortenFQNames="true">
+    <variable name="PARM" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="X" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
