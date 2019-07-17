@@ -32,15 +32,17 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mapl" value="Map&lt;$TYPE1$,$TYPE2$&gt; $END$ = new HashMap&lt;&gt;();" description="" toReformat="false" toShortenFQNames="true">
+  <template name="mapl" value="Map&lt;$TYPE1$,$TYPE2$&gt; $name$ = new HashMap&lt;&gt;();&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TYPE1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="listl" value="List&lt;$PARAMETER$&gt; $END$ = new ArrayList&lt;&gt;();" description="" toReformat="false" toShortenFQNames="true">
+  <template name="listl" value="List&lt;$PARAMETER$&gt; $name$ = new ArrayList&lt;&gt;();&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="PARAMETER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -72,8 +74,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="setl" value="Set&lt;$TYPE$&gt; $END$ = new HashSet&lt;&gt;();" toReformat="false" toShortenFQNames="true">
+  <template name="setl" value="Set&lt;$TYPE$&gt; $name$ = new HashSet&lt;&gt;();&#10;$END$" toReformat="false" toShortenFQNames="true">
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
     </context>
