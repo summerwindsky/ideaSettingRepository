@@ -33,16 +33,16 @@
     </context>
   </template>
   <template name="mapl" value="Map&lt;$TYPE1$,$TYPE2$&gt; $name$ = new HashMap&lt;&gt;();&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="TYPE1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TYPE2" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE1" expression="" defaultValue="&quot;String&quot;" alwaysStopAt="true" />
+    <variable name="TYPE2" expression="" defaultValue="&quot;String&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="&quot;map&quot;" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="listl" value="List&lt;$PARAMETER$&gt; $name$ = new ArrayList&lt;&gt;();&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="PARAMETER" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETER" expression="" defaultValue="&quot;String&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="&quot;list&quot;" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -75,8 +75,8 @@
     </context>
   </template>
   <template name="setl" value="Set&lt;$TYPE$&gt; $name$ = new HashSet&lt;&gt;();&#10;$END$" toReformat="false" toShortenFQNames="true">
-    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="&quot;String&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="&quot;set&quot;" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -131,7 +131,7 @@
     </context>
   </template>
   <template name="ne" value="if($PARM$.isNotEmpty($VAR$)) {&#10;    $END$&#10;}" description="not empty" toReformat="false" toShortenFQNames="true">
-    <variable name="PARM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARM" expression="" defaultValue="&quot;StringUtils&quot;" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
