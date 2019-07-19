@@ -143,4 +143,12 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="tk-condition" value="Condition $condition$ = new Condition($className$.class);&#10;$condition$.createCriteria().andCondition(&quot;$var$&quot;);$END$&#10;" description="tkmabatis condition" toReformat="false" toShortenFQNames="true">
+    <variable name="condition" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="&quot;classname&quot;" alwaysStopAt="true" />
+    <variable name="var" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
