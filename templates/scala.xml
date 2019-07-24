@@ -18,4 +18,11 @@
       <option name="SCALA" value="true" />
     </context>
   </template>
+  <template name="?:" value="$a$?:$b$" description="three mu calculate" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
 </templateSet>
