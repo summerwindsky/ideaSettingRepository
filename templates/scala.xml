@@ -25,4 +25,10 @@
       <option name="SCALA" value="true" />
     </context>
   </template>
+  <template name="ts" value="Thread sleep $time$" description="thread sleep xxx" toReformat="false" toShortenFQNames="true">
+    <variable name="time" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
 </templateSet>
