@@ -31,4 +31,10 @@
       <option name="SCALA" value="true" />
     </context>
   </template>
+  <template name="exe-time" value="val start$num$ = System.currentTimeMillis();&#10;$SELECTION$&#10;println(System.currentTimeMillis() - start$num$);&#10;$END$&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="num" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
 </templateSet>
