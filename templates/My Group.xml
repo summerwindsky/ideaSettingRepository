@@ -152,4 +152,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="sdf" value="private SimpleDateFormat $sdf$ = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;);" description="SimpleDateFormat" toReformat="false" toShortenFQNames="true">
+    <variable name="sdf" expression="" defaultValue="&quot;sdf&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
