@@ -2,9 +2,10 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="019_51_000200018724115_001" type="PLAIN_TEXT" />
-      <mapping pattern="018_51_000600051164690_001" type="PLAIN_TEXT" />
       <mapping pattern="ajzlb" type="PLAIN_TEXT" />
+      <mapping pattern="018_51_000600051164690_001" type="PLAIN_TEXT" />
       <mapping pattern="017_51_000300025937425_001" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping ext="timestamp" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
